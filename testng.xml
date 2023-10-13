@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/SQA/WebHishabee">
+        <classes>
+            <class name="webtests.TestCase">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="pinSetupAndSingIn"/>
+                    <include name="ContactAdd"/>
+                    <include name="ContactRead"/>
+                    <include name="ContactUpDate"/>
+                    <include name="DeleteContact"/>
+                    <include name="CreateProduct"/>
+                    <include name="UpdateProduct"/>
+                    <include name="ReadProduct"/>
+                    <include name="DeleteProductItem"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
